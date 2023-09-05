@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+
+body {
+  background-color:slategray;
+}
+
+.header {
+  display: flex;
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  border-radius: 5%;
+  background-color:rgb(23, 34, 34);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: Oswald, sans-serif;
+  font-size: 70px;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.job {
+  font-family: Oswald, sans-serif;
+  color: rgb(33, 173, 173);
+  text-align: center;
+  margin-top: 1px;
+}
+
+.header-buttons {
+  display: flex;
+}
+
+.email-button {
+  background-color: aliceblue;
+  width: 130px;
+  height: fit-content;
+  margin-left: 20%;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.header--email {
+  font-family: Oswald, sans-serif;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.email-logo {
+  padding-right: 5px;
+  display: inline-flex;
+  text-align: center;
+}
+
+.linkedin-button {
+  background-color: aliceblue;
+  width: 130px;
+  margin-left: 20%;
+  border-radius: 5%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header--linkedin {
+  font-family: Oswald, sans-serif;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.linkedin-logo {
+  padding-right: 5px;
+  display: inline-flex;
+}
